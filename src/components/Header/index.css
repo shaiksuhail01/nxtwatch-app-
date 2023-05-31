@@ -1,0 +1,61 @@
+.icons {
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .icons {
+    margin-right: 20px;
+  }
+}
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.cancelButton {
+  background-color: transparent;
+  font-family: 'Roboto';
+  border-width: 1px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: 500;
+  color: #94a3b8;
+  border-color: #94a3b8;
+  border-style: solid;
+  border-radius: 3px;
+  font-size: 16px;
+  margin-right: 16px;
+  margin-top: 12px;
+  cursor: pointer;
+  outline: none;
+}
+.confirmButton {
+  background-color: #3b82f6;
+  font-family: 'Roboto';
+  border-width: 0px;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: 500;
+  color: #ffffff;
+  border-style: solid;
+  border-radius: 3px;
+  font-size: 16px;
+
+  margin-top: 12px;
+  margin-left: 16px;
+  cursor: pointer;
+  outline: none;
+}
+.linkItem {
+  text-decoration: none;
+}
+.darkLightButtons {
+  border-width: 0px;
+  background-color: transparent;
+}
